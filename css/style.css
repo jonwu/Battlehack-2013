@@ -25,6 +25,12 @@ body
 	/*bottom: 1.5em;*/
 }
 
+.inputField:focus{
+	border-bottom: 1px solid #1E509C;
+	outline: none;
+    box-shadow: -2px 5px 3px #9ecaed;
+}
+
 #distance{
 	width: 1.6em;
 }
@@ -106,6 +112,10 @@ body
 	background-repeat: no-repeat;
 	color: white;
 	padding-left: 100px;
+}
+
+#pledge:hover{
+	background-image: url("../img/pledgeBgHover.jpg");
 }
 
 

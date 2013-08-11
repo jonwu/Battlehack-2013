@@ -10,4 +10,8 @@ $(document).ready(function() {
 	pledge.click(function(){
 		window.location="http://google.com";
 	})
+
+	// pledge.hover(function(){
+	// 	$(this).css({ "background-image": "url('../img/pledgeBgHover.jpg')" });
+	// })
 });
